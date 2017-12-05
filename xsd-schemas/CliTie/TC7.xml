@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TC7>
+<!-- Septimo mensaje - El cliente ha sido borrado de la tienda -->
+<!-- Cuando un cliente reciba el mensaje no tendrá sentido mandar mas mensajes a la tienda que lo haya mandado -->
+	<emisor>id</emisor>
+	<receptor>id</receptor>
+	<time>
+		<timestamp>ts</timestamp>
+		<creador>direccion</creador>
+	</time>
+</TC7>

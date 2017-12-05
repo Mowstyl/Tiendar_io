@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CM1>
+<!-- Primer mensaje - Peticion de ID al monitor -->
+	<emisor>id</emisor> <!-- Codigo -1 cuando no hay id asignada -->
+	<receptor>id</receptor> <!-- ID del monitor = 0 -->
+	<time>
+		<timestamp>ts</timestamp>
+		<creador>direccion</creador> <!-- IP del cliente -->
+	</time>
+</CM1>

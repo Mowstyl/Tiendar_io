@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MT1>
+<!-- Primer mensaje - Monitor-Tienda: ID y Lista Productos -->
+	<emisor>id</emisor> <!-- ID del monitor = 0 -->
+	<receptor>id</receptor> <!-- ID asignada a la tienda -->
+	<time>
+		<timestamp>ts</timestamp>
+		<creador>direccion</creador>
+	</time>
+	<listaP>
+		<producto>
+			<nombreP>nombreP</nombreP>
+			<cantidadP>cantidadP</cantidadP>
+		</producto>
+		<!-- ... -->
+	</listaP>
+</MT1>

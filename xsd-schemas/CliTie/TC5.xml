@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TC5>
+<!-- Quinto mensaje - La tienda obtiene la lista de tiendas conocidas por sus clientes y la envia al cliente que la solicito -->
+<!-- Para facilitar el proceso, no dejeis que hayan tiendas repetidas en la lista -->
+	<emisor>id</emisor>
+	<receptor>id</receptor>
+	<time>
+		<timestamp>ts</timestamp>
+		<creador>direccion</creador>
+	</time>
+	<listaT>
+		<tienda>
+			<idTienda>id</idTienda>
+			<direccion>url</direccion>
+			<tipo>php/py/js</tipo>
+		</tienda>
+		<!-- ... -->
+	</listaT>
+</TC5>

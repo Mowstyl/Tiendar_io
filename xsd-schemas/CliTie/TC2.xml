@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TC2>
+<!-- Segundo mensaje - La tienda esta llena. Si un cliente recibe este mensaje significa que no ha entrado en la tienda -->
+<!-- El cliente debera hacer lo que quiera: reintentar o irse a otra tienda. Si se reintenta por favor poned un tiempo de espera -->
+	<emisor>id</emisor>
+	<receptor>id</receptor>
+	<time>
+		<timestamp>ts</timestamp>
+		<creador>direccion</creador>
+	</time>
+</TC2>

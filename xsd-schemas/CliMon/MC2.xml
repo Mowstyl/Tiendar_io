@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MC2>
+<!-- Segundo mensaje - Obtencion ID y Lista de Tiendas y Compra -->
+	<emisor>id</emisor>
+	<receptor>id</receptor>
+	<time>
+		<timestamp>ts</timestamp>
+		<creador>direccion</creador>
+	</time>
+	<listaP>
+		<producto>
+			<nombre>nom</nombre>
+			<cantidad>cant</cantidad>
+		</producto>
+		<!-- ... -->
+	</listaP>
+	<listaT>
+		<tienda>
+			<idTienda>id</idTienda>
+			<direccion>url</direccion>
+			<tipo>php/py/js</tipo> <!--Tipo de servidor-->
+		</tienda>
+		<!-- ... -->
+	</listaT>
+</MC2>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CT6>
+<!-- Sexto mensaje - El cliente indica que se va de la tienda -->
+<!-- La tienda debe borrar todos los datos del cliente que mande este mensaje, incluidas las tiendas que conozca -->
+<!-- Para simplificar el borrado de tiendas conocidas, recomiendo guardar las que conozca cada cliente por separado -->
+	<emisor>id</emisor>
+	<receptor>id</receptor>
+	<time>
+		<timestamp>ts</timestamp>
+		<creador>direccion</creador>
+	</time>
+</CT6>

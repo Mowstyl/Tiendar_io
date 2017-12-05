@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TC3>
+<!-- Tercer mensaje - El cliente esta dentro de la tienda y ha comprado los productos indicados en listaComprado -->
+<!-- La tienda manda el mensaje tras guardar los datos del cliente y actualizar debidamente su stock disponible tras vender lo que el cliente pidio -->
+	<emisor>id</emisor>
+	<receptor>id</receptor>
+	<time>
+		<timestamp>ts</timestamp>
+		<creador>direccion</creador>
+	</time>
+	<listaP>
+		<producto>
+			<nombre>nom</nombre>
+			<cantidad>cant</cantidad>
+		</producto>
+		<!-- ... -->
+	</listaP>
+</TC3>

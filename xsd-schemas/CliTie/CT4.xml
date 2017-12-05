@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CT4>
+<!-- Cuarto mensaje - El cliente solicita obtener la lista de tiendas que conocen todos los clientes que hay en la tienda en la que esta -->
+	<emisor>id</emisor>
+	<receptor>id</receptor>
+	<time>
+		<timestamp>ts</timestamp>
+		<creador>direccion</creador>
+	</time>
+</CT4>

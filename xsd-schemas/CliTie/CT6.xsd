@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="CT6">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="emisor" type="xs:string"/>
+			<xs:element name="receptor" type="xs:string"/>
+			<xs:element name="time">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="timestamp" type="xs:integer"/>
+						<xs:element name="creador" type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+</xs:schema>

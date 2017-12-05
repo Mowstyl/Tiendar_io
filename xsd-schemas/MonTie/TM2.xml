@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TM2>
+<!-- Segundo mensaje - Tienda-Monitor: Listo -->
+	<emisor>id</emisor> <!-- Codigo 0 no hay emisor -->
+	<receptor>id</receptor> <!-- IP del monitor -->
+	<time>
+		<timestamp>ts</timestamp>
+		<creador>direccion</creador>
+	</time>
+</TM2>
