@@ -3,18 +3,18 @@
 
 <xs:element name="CM1">
 	<xs:complexType>
-		<xs:sequence>
+		<xs:all>
 			<xs:element name="emisor" type="xs:string"/>
 			<xs:element name="receptor" type="xs:string"/>
 			<xs:element name="time">
 				<xs:complexType>
-					<xs:sequence>
+					<xs:all>
 						<xs:element name="timestamp" type="xs:integer"/>
 						<xs:element name="creador" type="xs:string"/>
-					</xs:sequence>
+					</xs:all>
 				</xs:complexType>
 			</xs:element>
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 </xs:element>
 

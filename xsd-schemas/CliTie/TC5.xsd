@@ -3,23 +3,23 @@
 
 <xs:element name="TC5">
 	<xs:complexType>
-		<xs:sequence>
+		<xs:all>
 			<xs:element name="emisor" type="xs:string"/>
 			<xs:element name="receptor" type="xs:string"/>
 			<xs:element name="time">
 				<xs:complexType>
-					<xs:sequence>
+					<xs:all>
 						<xs:element name="timestamp" type="xs:integer"/>
 						<xs:element name="creador" type="xs:string"/>
-					</xs:sequence>
+					</xs:all>
 				</xs:complexType>
 			</xs:element>
 			<xs:element name="listaT">
 				<xs:complexType>
-					<xs:sequence minOccurs="1" maxOccurs="unbounded">
+					<xs:all>
 						<xs:element name="tienda">
 							<xs:complexType>
-								<xs:sequence>
+								<xs:all>
 									<xs:element name="idTienda" type="xs:string"/>
 									<xs:element name="direccion" type="xs:string"/>
 									<xs:element name="tipo">
@@ -31,13 +31,13 @@
 											</xs:restriction>
 										</xs:simpleType>
 									</xs:element>
-								</xs:sequence>
+								</xs:all>
 							</xs:complexType>
 						</xs:element>
-					</xs:sequence>
+					</xs:all>
 				</xs:complexType>
 			</xs:element>
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 </xs:element>
 

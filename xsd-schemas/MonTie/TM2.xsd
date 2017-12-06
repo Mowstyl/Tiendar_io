@@ -3,7 +3,7 @@
 
 <xs:element name="TM2">
 	<xs:complexType>
-		<xs:sequence>
+		<xs:all>
 			<xs:element name="emisor" type="xs:string"/>
 			<xs:element name="receptor" type="xs:string"/>
 			<xs:element name="time">
@@ -14,7 +14,7 @@
 					</xs:sequence>
 				</xs:complexType>
 			</xs:element>
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 </xs:element>
 
