@@ -16,7 +16,7 @@
 			</xs:element>
 			<xs:element name="listaT">
 				<xs:complexType>
-					<xs:all>
+					<xs:sequence maxOccurs="unbounded">
 						<xs:element name="tienda">
 							<xs:complexType>
 								<xs:all>
@@ -34,7 +34,7 @@
 								</xs:all>
 							</xs:complexType>
 						</xs:element>
-					</xs:all>
+					</xs:sequence>
 				</xs:complexType>
 			</xs:element>
 		</xs:all>

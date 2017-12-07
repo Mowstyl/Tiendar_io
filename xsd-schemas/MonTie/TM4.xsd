@@ -16,7 +16,7 @@
 			</xs:element>
 			<xs:element name="listaP">
 				<xs:complexType>
-					<xs:all>
+					<xs:sequence minOccurs="1" maxOccurs="unbounded">
 						<xs:element name="producto">
 							<xs:complexType>
 								<xs:all>
@@ -31,7 +31,7 @@
 								</xs:all>
 							</xs:complexType>
 						</xs:element>
-					</xs:all>
+					</xs:sequence>
 				</xs:complexType>
 			</xs:element>
 		</xs:all>
